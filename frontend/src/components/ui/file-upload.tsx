@@ -110,7 +110,7 @@ export const FileUpload = ({
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       layout
-                      className="px-1 py-0.5 rounded-md bg-blue-300 text-white "
+                      className="px-1 py-0.5 w-fit rounded-md bg-blue-300 text-white "
                     >
                       {file.type}
                     </motion.p>

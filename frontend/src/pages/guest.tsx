@@ -1,15 +1,15 @@
 import Hero from "@/components/Hero";
+import "@/app/globals.css";
+
 
 export default function guest() {
   return (
-    // <main className="relative flex justify-center items-center flex-col overflow-hidden">
-    //   <div className="w-full bg-blue-600">
+    <main className="w-full bg-white relative flex justify-center items-center flex-col overflow-hidden">
+      <div className="w-full">
 
-    //     <Hero />
-    //   </div>
-      // </main>
-      <div className="bg-blue">
-          Hi
+        <Hero />
       </div>
+      </main>
+      
   )
 }

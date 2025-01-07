@@ -6,8 +6,8 @@ export default function Home() {
     <main className="relative flex justify-center items-center flex-col overflow-hidden">
       <div className="w-full">
 
-        <Hero/>
+        <Hero />
       </div>
-</main>
-  );
+    </main>
+  )
 }

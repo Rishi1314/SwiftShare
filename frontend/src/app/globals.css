@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.addProjectCardInput{
+    color: #fff;
+   font-size: 0.9rem;
+   background-color:#fff;
+   width: 100%;
+   box-sizing: border-box;
+   padding-inline: 0.5em;
+   padding-block: 0.7em;
+   border: none;
+   border-bottom: var(--border-height) solid var(--border-before-color);
+    border-radius: 2px;
+  }
+  .addProjectCardInput:focus{
+    outline: none;
+  }
+  .addProjectCardInput:focus ~ .input-border {
+    width: 100%;
+   }
+  .input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+   }
+
+   
